@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Room Statistics Form</title>
+	<style>
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="number"] {
+			width: 200px;
+			padding: 10px;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Room Statistics Form</h1>
+	<form>
+		<label for="total-persons">Total Persons:</label>
+		<input type="number" id="total-persons" name="total-persons" required>
+		<label for="persons-entered">Total Persons Entered:</label>
+		<input type="number" id="persons-entered" name="persons-entered" required>
+		<label for="persons-left">Total Persons Left:</label>
+		<input type="number" id="persons-left" name="persons-left" required>
+		<label for="food-consumed">Amount of Food Consumed:</label>
+		<input type="number" id="food-consumed" name="food-consumed" required>
+		<label for="food-left">Amount of Food Left:</label>
+		<input type="number" id="food-left" name="food-left" required>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
