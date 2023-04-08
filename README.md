@@ -1,5 +1,5 @@
 # hackfest-tinycodersIITISM
-#till now we have connected ir sensors with arduino UNO to count the number of people entering and exiting.
-#we have created the app flow design.
-#we have made the frontend UI designs for the app.
-#we have created a database to accept the data from the sensors.
+# We have completely created our IOT Model using Arduino UNO and IR sensors to Calculate the number of persons entering and exiting the venue.
+# We have tried to Create The server where we can store the data of IOT Model Dynamically.
+# https://aahaar.000webhostapp.com/ this is our server link.
+# We are Training the dataset now which will predict the peak time at which the venue will have the highest number of person.
