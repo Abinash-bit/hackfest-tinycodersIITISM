@@ -1,1 +1,9 @@
-
+# PROBLEM STATEMENT:To provide a platform for efficient and qualitative distribution of cooked food wasted in big parties and also to help in smooth  Host- NGO interaction.
+# SOLUTION:To reduce the dining time gap, maintain food quality, and serve the left-over food to all needy people, we developed an integrated system that contains an IR sensor to calculate the number of incoming people, linked with an app that uses deep learning to predict in real-time the amount of food that will be left after the end of the event. This is a dynamic parallel operation system that estimates the leftover food in much less time.
+# HARDWARE SYSTEM =
+# It consists of an IR (infrared) sensor to count the number of people entering the hall, a WiFi module to link the calculated data to the IP address of the system, and an Uno Arduino to integrate the sensor and module for its operation. This is also used to calculate the number of people entering and exiting the venue hall. This small hardware system is to be fixed at the entrance door of the hall. The counted data received by the hardware is sent to the IP address for further software processing.
+# SOFTWARE SYSTEM =
+# The collected data from the hardware system is now trained through a deep learning platform (Tensorflow, Keras, and Pytorch).
+# The deep learning platform analyses and provides the amount of food that will be left at the end of the event at the specified time. This information is presented to the event host, NGOs, or venue owner through an app.
+# Now the NGOs can request takeout from nearby venues, and the host can notify the nearby NGOs about the availability of food at the event for take away.Now the NGOs can collect hot and fresh food within the normal dining time to serve the needy.
+ # By our solution, we are now able to serve good quality food to the needy in time, reduce food wastage, and also help in the social upliftment of our country.
